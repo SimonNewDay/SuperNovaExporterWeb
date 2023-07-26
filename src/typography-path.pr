@@ -1,0 +1,5 @@
+{[ const filename = "typography.js" /]}
+{[ let brand = ds.currentBrand() /]}
+
+
+tokens/{{ brand.name.lowercased() }}/{{ filename.lowercased() }}

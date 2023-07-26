@@ -2,35 +2,35 @@
   "blueprints": [
     {
       "invoke": "colors.pr",
-      "write_to": "tokens/aqua/colors.ts"
+      "write_using": "colors-path.pr"
     },
     {
       "invoke": "borders.pr",
-      "write_to": "tokens/aqua/borders.ts"
+      "write_using": "borders-path.pr"
     },
     {
       "invoke": "gradients.pr",
-      "write_to": "tokens/aqua/gradients.ts"
+      "write_using": "gradients-path.pr"
     },
     {
       "invoke": "measures.pr",
-      "write_to": "tokens/aqua/measures.ts"
+      "write_using": "measures-path.pr"
     },
     {
       "invoke": "shadows.pr",
-      "write_to": "tokens/aqua/shadows.ts"
+      "write_using": "shadows-path.pr"
     },
     {
       "invoke": "radii.pr",
-      "write_to": "tokens/aqua/radii.ts"
+      "write_using": "radii-path.pr"
     },
     {
       "invoke": "typography.pr",
-      "write_to": "tokens/aqua/typography.ts"
+      "write_using": "typography-path.pr"
     },
     {
       "invoke": "tokens.pr",
-      "write_to": "tokens/aqua/tokens.ts"
+      "write_using": "tokens-path.pr"
     }
   ]
 }
