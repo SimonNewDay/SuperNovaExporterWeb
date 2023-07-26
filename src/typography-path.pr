@@ -2,4 +2,4 @@
 {[ let brand = ds.currentBrand() /]}
 
 
-tokens/{{ brand.name.lowercased() }}/{{ filename.lowercased() }}
+{{ brand.name.lowercased() }}/tokens/{{ filename.lowercased() }}
