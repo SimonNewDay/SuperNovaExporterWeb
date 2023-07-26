@@ -1,0 +1,20 @@
+{
+  "id": "newday.supernova.exporter.web",
+  "name": "Web exporter for Chakra",
+  "description": "Exporter of tokens for web react design system",
+  "author": "Simon Williams",
+  "organization": "NewDay",
+  "source_dir": "src",
+  "version": "0.0.1",
+  "usesBrands": true,
+  "config": {
+    "sources": "sources.json",
+    "output": "output.json",
+    "js": "src/js/helpers.js"
+  },
+  "engines": {
+    "pulsar": "1.0.0",
+    "supernova": "1.0.0"
+  },
+  "tags": ["React", "Chakra-UI"]
+}

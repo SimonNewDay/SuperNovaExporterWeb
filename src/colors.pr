@@ -1,0 +1,52 @@
+{*
+
+Generate all color tokens as named variables.
+Tokens are named by their group path and then name, 
+and their value rendered using `rendered-color` blueprint
+
+*}
+{[ global CURRENT_TYPE = "Color" /]}
+
+{[ let brand = ds.currentBrand() /]}
+// Brand: {{ brand.name }} - {{ CURRENT_TYPE}}
+
+{[ const behavior = getBehavior(CURRENT_TYPE) /]}
+{[ const tokens = ds.tokensByType(CURRENT_TYPE, brand.id) /]}
+
+ {[ for token in tokens ]}
+{[ inject "rendered-token-var" context token /]}   
+{[/]}
+
+export const {{ behavior.varName }} = {
+{[ for token in tokens ]}
+    {[ inject "rendered-description" context token /]}
+    {[ inject "rendered-name" context token /]},
+{[/]} 
+
+{* const colors = {
+    brand: {
+        primary: {
+            main: "#CC0000",
+            hover: "#FF0000",
+            active: "#DD0000"
+        },
+        secondary: {
+            main: "#FFCC32",
+            hover: "#FF0000",
+            active: "#DD0000"
+        },
+        tertiary: {
+            main: "#00D8B0",
+            hover: "#FF0000",
+            active: "#DD0000"
+        },
+        focus: "#ff00000",
+        disabled: "#cccccc",
+        destructive: : {
+            main: "#00D8B0",
+            hover: "#FF0000",
+            active: "#DD0000"
+        }
+    }
+
+} *}
