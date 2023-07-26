@@ -5,7 +5,7 @@
 import { {{ behavior.varName }} } from './{{ behavior.fileName }}';
 {[/]}
 
-export const Theme = {
+export const Tokens = {
     {[ for type in types ]}
     {[ const behavior = getBehavior(type) /]}
     {{ behavior.themeProperty }}: {{ behavior.varName }},

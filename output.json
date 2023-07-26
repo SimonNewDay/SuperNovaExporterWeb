@@ -29,8 +29,8 @@
       "write_to": "tokens/aqua/typography.ts"
     },
     {
-      "invoke": "theme.pr",
-      "write_to": "tokens/aqua/theme.ts"
+      "invoke": "tokens.pr",
+      "write_to": "tokens/aqua/tokens.ts"
     }
   ]
 }
