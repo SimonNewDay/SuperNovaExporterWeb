@@ -22,6 +22,7 @@ export const {{ behavior.varName }} = {
     {[ inject "rendered-description" context token /]}
     {[ inject "rendered-name" context token /]},
 {[/]} 
+}
 
 {* const colors = {
     brand: {
