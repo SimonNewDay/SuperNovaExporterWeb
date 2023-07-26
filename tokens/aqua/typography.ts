@@ -1,9 +1,9 @@
 
 import { Measures } from './measures';
 const headingDesktopH1 = {
-           fontFamily: "Boston",
+           fontFamily: "Termina",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 900,
            fontSize: {
                       measure: 48,
                       unit: "Pixels",
@@ -26,9 +26,9 @@ const headingDesktopH1 = {
                        },
          };
 const headingDesktopH2 = {
-           fontFamily: "Boston",
+           fontFamily: "Termina",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 900,
            fontSize: {
                       measure: 32,
                       unit: "Pixels",
@@ -51,9 +51,9 @@ const headingDesktopH2 = {
                        },
          };
 const headingDesktopH3 = {
-           fontFamily: "Boston",
+           fontFamily: "Termina",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 900,
            fontSize: {
                       measure: 28,
                       unit: "Pixels",
@@ -76,9 +76,9 @@ const headingDesktopH3 = {
                        },
          };
 const headingDesktopH4 = {
-           fontFamily: "Boston",
+           fontFamily: "Termina",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 900,
            fontSize: {
                       measure: 24,
                       unit: "Pixels",
@@ -101,9 +101,9 @@ const headingDesktopH4 = {
                        },
          };
 const headingDesktopH5 = {
-           fontFamily: "Boston",
+           fontFamily: "Termina",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 900,
            fontSize: {
                       measure: 20,
                       unit: "Pixels",
@@ -126,9 +126,9 @@ const headingDesktopH5 = {
                        },
          };
 const headingMobileH1 = {
-           fontFamily: "Boston",
+           fontFamily: "Termina",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 900,
            fontSize: {
                       measure: 32,
                       unit: "Pixels",
@@ -151,9 +151,9 @@ const headingMobileH1 = {
                        },
          };
 const headingMobileH2 = {
-           fontFamily: "Boston",
+           fontFamily: "Termina",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 900,
            fontSize: {
                       measure: 28,
                       unit: "Pixels",
@@ -176,9 +176,9 @@ const headingMobileH2 = {
                        },
          };
 const headingMobileH3 = {
-           fontFamily: "Boston",
+           fontFamily: "Termina",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 900,
            fontSize: {
                       measure: 24,
                       unit: "Pixels",
@@ -201,9 +201,9 @@ const headingMobileH3 = {
                        },
          };
 const headingMobileH4 = {
-           fontFamily: "Boston",
+           fontFamily: "Termina",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 900,
            fontSize: {
                       measure: 20,
                       unit: "Pixels",
@@ -226,9 +226,9 @@ const headingMobileH4 = {
                        },
          };
 const headingMobileH5 = {
-           fontFamily: "Boston",
+           fontFamily: "Termina",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 900,
            fontSize: {
                       measure: 18,
                       unit: "Pixels",
@@ -251,9 +251,9 @@ const headingMobileH5 = {
                        },
          };
 const bodyBold = {
-           fontFamily: "Boston",
+           fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 700,
            fontSize: {
                       measure: 16,
                       unit: "Pixels",
@@ -276,7 +276,7 @@ const bodyBold = {
                        },
          };
 const bodyRegular = {
-           fontFamily: "Boston",
+           fontFamily: "Heebo",
            fontStyle: "normal",
            fontWeight: 400,
            fontSize: {
@@ -301,9 +301,9 @@ const bodyRegular = {
                        },
          };
 const bodyLink = {
-           fontFamily: "Boston",
+           fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 700,
            fontSize: {
                       measure: 16,
                       unit: "Pixels",
@@ -326,9 +326,9 @@ const bodyLink = {
                        },
          };
 const captionBold = {
-           fontFamily: "Boston",
+           fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 700,
            fontSize: {
                       measure: 14,
                       unit: "Pixels",
@@ -351,7 +351,7 @@ const captionBold = {
                        },
          };
 const captionRegular = {
-           fontFamily: "Boston",
+           fontFamily: "Heebo",
            fontStyle: "normal",
            fontWeight: 400,
            fontSize: {
@@ -376,9 +376,9 @@ const captionRegular = {
                        },
          };
 const captionLink = {
-           fontFamily: "Boston",
+           fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 700,
            fontSize: {
                       measure: 14,
                       unit: "Pixels",
@@ -401,9 +401,9 @@ const captionLink = {
                        },
          };
 const metaBold = {
-           fontFamily: "Boston",
+           fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 700,
            fontSize: {
                       measure: 12,
                       unit: "Pixels",
@@ -426,7 +426,7 @@ const metaBold = {
                        },
          };
 const metaRegular = {
-           fontFamily: "Boston",
+           fontFamily: "Heebo",
            fontStyle: "normal",
            fontWeight: 400,
            fontSize: {
@@ -451,9 +451,9 @@ const metaRegular = {
                        },
          };
 const metaLink = {
-           fontFamily: "Boston",
+           fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 600,
+           fontWeight: 700,
            fontSize: {
                       measure: 12,
                       unit: "Pixels",

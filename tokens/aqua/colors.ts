@@ -1,4 +1,4 @@
-// Brand: Aqua - Color
+// Brand: Bip - Color
 
 const globalBaseBlack = "rgba(0,0,0,255)";
  const globalBaseWhite = "rgba(255,255,255,255)";
@@ -16,33 +16,33 @@ const globalBaseBlack = "rgba(0,0,0,255)";
  const globalOrangeOrangedefault = "rgba(214,67,9,255)";
  const globalGreenGreenlight = "rgba(235,251,238,255)";
  const globalGreenGreendefault = "rgba(14,125,36,255)";
- const semanticContentContentprimary = "rgba(26,26,26,255)";
- const semanticContentContentsecondary = "rgba(77,77,77,255)";
+ const semanticContentContentprimary = "rgba(10,0,30,255)";
+ const semanticContentContentsecondary = "rgba(10,0,30,255)";
  const semanticContentContenttertiary = "rgba(142,142,142,255)";
  const semanticContentContentinverse = "rgba(255,255,255,255)";
- const semanticContentContentaccent = "rgba(0,0,166,255)";
+ const semanticContentContentaccent = "rgba(128,80,242,255)";
  const semanticBackgroundBackgroundprimary = "rgba(255,255,255,255)";
  const semanticBackgroundBackgroundsecondary = "rgba(245,245,245,255)";
- const semanticBackgroundBackgroundaccent = "rgba(0,0,166,255)";
- const semanticBackgroundBackgroundaccentalt = "rgba(0,0,56,255)";
+ const semanticBackgroundBackgroundaccent = "rgba(128,80,242,255)";
+ const semanticBackgroundBackgroundaccentalt = "rgba(10,0,30,255)";
  const semanticBorderBorderprimary = "rgba(198,198,198,255)";
  const semanticBorderBorderinverse = "rgba(245,245,245,255)";
- const semanticInteractivePrimaryInteractivedefault = "rgba(0,0,166,255)";
- const semanticInteractivePrimaryInteractivehover = "rgba(0,0,134,255)";
- const semanticInteractiveSecondaryInteractivedefault = "rgba(255,204,50,255)";
- const semanticInteractiveSecondaryInteractivehover = "rgba(255,170,46,255)";
- const semanticButtonPrimaryButtoncontent = "rgba(0,0,166,255)";
- const semanticButtonPrimaryButtonbackgrounddefault = "rgba(255,204,50,255)";
- const semanticButtonPrimaryButtonbackgroundhover = "rgba(255,170,46,255)";
- const semanticButtonPrimaryButtonfocus = "rgba(0,0,166,255)";
- const semanticButtonSecondaryButtoncontent = "rgba(0,0,166,255)";
+ const semanticInteractivePrimaryInteractivedefault = "rgba(128,80,242,255)";
+ const semanticInteractivePrimaryInteractivehover = "rgba(95,27,208,255)";
+ const semanticInteractiveSecondaryInteractivedefault = "rgba(155,255,0,255)";
+ const semanticInteractiveSecondaryInteractivehover = "rgba(104,237,0,255)";
+ const semanticButtonPrimaryButtoncontent = "rgba(10,0,30,255)";
+ const semanticButtonPrimaryButtonbackgrounddefault = "rgba(155,255,0,255)";
+ const semanticButtonPrimaryButtonbackgroundhover = "rgba(104,237,0,255)";
+ const semanticButtonPrimaryButtonfocus = "rgba(10,0,30,255)";
+ const semanticButtonSecondaryButtoncontent = "rgba(10,0,30,255)";
  const semanticButtonSecondaryButtonbackgrounddefault = "rgba(255,255,255,255)";
  const semanticButtonSecondaryButtonbackgroundhover = "rgba(227,227,227,255)";
- const semanticButtonSecondaryButtonfocus = "rgba(0,0,166,255)";
- const semanticButtonTertiaryButtoncontent = "rgba(0,0,166,255)";
+ const semanticButtonSecondaryButtonfocus = "rgba(10,0,30,255)";
+ const semanticButtonTertiaryButtoncontent = "rgba(10,0,30,255)";
  const semanticButtonTertiaryButtonbackgrounddefault = "rgba(255,255,255,0)";
  const semanticButtonTertiaryButtonbackgroundhover = "rgba(227,227,227,255)";
- const semanticButtonTertiaryButtonfocus = "rgba(0,0,166,255)";
+ const semanticButtonTertiaryButtonfocus = "rgba(10,0,30,255)";
  const semanticButtonDisabledButtoncontent = "rgba(142,142,142,255)";
  const semanticButtonDisabledButtonbackgrounddefault = "rgba(77,77,77,255)";
  const semanticAlertsSuccessprimary = "rgba(14,125,36,255)";
@@ -51,14 +51,14 @@ const globalBaseBlack = "rgba(0,0,0,255)";
  const semanticAlertsWarningsecondary = "rgba(255,231,224,255)";
  const semanticAlertsErrorprimary = "rgba(195,4,36,255)";
  const semanticAlertsErrorsecondary = "rgba(255,235,238,255)";
- const globalThemePrimaryThemedefault = "rgba(0,0,166,255)";
- const globalThemePrimaryThemedark = "rgba(0,0,134,255)";
- const globalThemeSecondaryThemedefault = "rgba(255,204,50,255)";
- const globalThemeSecondaryThemedark = "rgba(255,170,46,255)";
- const globalThemeTertiaryThemedefault = "rgba(0,0,56,255)";
- const globalThemeQuaternaryThemedefault = "rgba(0,216,176,255)";
- const semanticInteractivePrimaryInteractivefocus = "rgba(255,204,50,255)";
- const semanticInteractiveSecondaryInteractivefocus = "rgba(0,0,166,255)";
+ const globalThemePrimaryThemedefault = "rgba(128,80,242,255)";
+ const globalThemePrimaryThemedark = "rgba(95,27,208,255)";
+ const globalThemeSecondaryThemedefault = "rgba(155,255,0,255)";
+ const globalThemeSecondaryThemedark = "rgba(104,237,0,255)";
+ const globalThemeTertiaryThemedefault = "rgba(10,0,30,255)";
+ const globalThemeQuaternaryThemedefault = "rgba(255,255,255,0)";
+ const semanticInteractivePrimaryInteractivefocus = "rgba(26,26,26,255)";
+ const semanticInteractiveSecondaryInteractivefocus = "rgba(10,0,30,255)";
  const semanticInteractiveDisabledInteractivecontent = "rgba(142,142,142,255)";
  const semanticInteractiveDisabledInteractivebackground = "rgba(227,227,227,255)";
  const semanticButtonDisabledButtonbackground = "rgba(227,227,227,255)";
@@ -134,7 +134,6 @@ export const Colors = {
             semanticButtonTertiaryButtonbackgroundhover,
     /** Used for the Button’s focus state. */
             semanticButtonTertiaryButtonfocus,
-    /** Used for content within a Disabled Button such as text or iconography. */
             semanticButtonDisabledButtoncontent,
     /** Used for the background colour of a Disabled Button. */
             semanticButtonDisabledButtonbackgrounddefault,
