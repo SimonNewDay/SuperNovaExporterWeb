@@ -8,7 +8,6 @@
 
 bin/act
 node_modules/
-dist/
 build/
 .build/
 storybook-static
