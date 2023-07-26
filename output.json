@@ -2,35 +2,35 @@
   "blueprints": [
     {
       "invoke": "colors.pr",
-      "write_to": "theme/aqua/colors.ts"
+      "write_to": "tokens/aqua/colors.ts"
     },
     {
       "invoke": "borders.pr",
-      "write_to": "theme/aqua/borders.ts"
+      "write_to": "tokens/aqua/borders.ts"
     },
     {
       "invoke": "gradients.pr",
-      "write_to": "theme/aqua/gradients.ts"
+      "write_to": "tokens/aqua/gradients.ts"
     },
     {
       "invoke": "measures.pr",
-      "write_to": "theme/aqua/measures.ts"
+      "write_to": "tokens/aqua/measures.ts"
     },
     {
       "invoke": "shadows.pr",
-      "write_to": "theme/aqua/shadows.ts"
+      "write_to": "tokens/aqua/shadows.ts"
     },
     {
       "invoke": "radii.pr",
-      "write_to": "theme/aqua/radii.ts"
+      "write_to": "tokens/aqua/radii.ts"
     },
     {
       "invoke": "typography.pr",
-      "write_to": "theme/aqua/typography.ts"
+      "write_to": "tokens/aqua/typography.ts"
     },
     {
       "invoke": "theme.pr",
-      "write_to": "theme/aqua/theme.ts"
+      "write_to": "tokens/aqua/theme.ts"
     }
   ]
 }
