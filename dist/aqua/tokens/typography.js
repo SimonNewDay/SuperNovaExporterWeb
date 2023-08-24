@@ -1,479 +1,175 @@
 
 import { Measures } from './measures';
 const headingDesktopH1 = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 48,
-                      unit: "Pixels",
-                      css: "48px"
-                     },
-           lineHeight: {
-                          measure: 72,
-                          unit: "Pixels",
-                          css: "72px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize8,
+           lineHeight: Measures.lineHeightLineheights0,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const headingDesktopH2 = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 32,
-                      unit: "Pixels",
-                      css: "32px"
-                     },
-           lineHeight: {
-                          measure: 48,
-                          unit: "Pixels",
-                          css: "48px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize7,
+           lineHeight: Measures.lineHeightLineheights1,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const headingDesktopH3 = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 28,
-                      unit: "Pixels",
-                      css: "28px"
-                     },
-           lineHeight: {
-                          measure: 44,
-                          unit: "Pixels",
-                          css: "44px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize6,
+           lineHeight: Measures.lineHeightLineheights2,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const headingDesktopH4 = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 24,
-                      unit: "Pixels",
-                      css: "24px"
-                     },
-           lineHeight: {
-                          measure: 36,
-                          unit: "Pixels",
-                          css: "36px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize5,
+           lineHeight: Measures.lineHeightLineheights3,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const headingDesktopH5 = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 20,
-                      unit: "Pixels",
-                      css: "20px"
-                     },
-           lineHeight: {
-                          measure: 32,
-                          unit: "Pixels",
-                          css: "32px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize4,
+           lineHeight: Measures.lineHeightLineheights4,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const headingMobileH1 = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 32,
-                      unit: "Pixels",
-                      css: "32px"
-                     },
-           lineHeight: {
-                          measure: 48,
-                          unit: "Pixels",
-                          css: "48px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize7,
+           lineHeight: Measures.lineHeightLineheights1,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const headingMobileH2 = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 28,
-                      unit: "Pixels",
-                      css: "28px"
-                     },
-           lineHeight: {
-                          measure: 44,
-                          unit: "Pixels",
-                          css: "44px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize6,
+           lineHeight: Measures.lineHeightLineheights2,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const headingMobileH3 = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 24,
-                      unit: "Pixels",
-                      css: "24px"
-                     },
-           lineHeight: {
-                          measure: 36,
-                          unit: "Pixels",
-                          css: "36px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize5,
+           lineHeight: Measures.lineHeightLineheights3,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const headingMobileH4 = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 20,
-                      unit: "Pixels",
-                      css: "20px"
-                     },
-           lineHeight: {
-                          measure: 32,
-                          unit: "Pixels",
-                          css: "32px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize4,
+           lineHeight: Measures.lineHeightLineheights4,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const headingMobileH5 = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 18,
-                      unit: "Pixels",
-                      css: "18px"
-                     },
-           lineHeight: {
-                          measure: 28,
-                          unit: "Pixels",
-                          css: "28px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize3,
+           lineHeight: Measures.lineHeightLineheights5,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const bodyBold = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 16,
-                      unit: "Pixels",
-                      css: "16px"
-                     },
-           lineHeight: {
-                          measure: 24,
-                          unit: "Pixels",
-                          css: "24px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize2,
+           lineHeight: Measures.lineHeightLineheights6,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const bodyRegular = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
            fontWeight: 400,
-           fontSize: {
-                      measure: 16,
-                      unit: "Pixels",
-                      css: "16px"
-                     },
-           lineHeight: {
-                          measure: 24,
-                          unit: "Pixels",
-                          css: "24px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontSize: Measures.fontSizeFontsize2,
+           lineHeight: Measures.lineHeightLineheights6,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const bodyLink = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 16,
-                      unit: "Pixels",
-                      css: "16px"
-                     },
-           lineHeight: {
-                          measure: 24,
-                          unit: "Pixels",
-                          css: "24px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize2,
+           lineHeight: Measures.lineHeightLineheights6,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const captionBold = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 14,
-                      unit: "Pixels",
-                      css: "14px"
-                     },
-           lineHeight: {
-                          measure: 20,
-                          unit: "Pixels",
-                          css: "20px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize1,
+           lineHeight: Measures.lineHeightLineheights7,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const captionRegular = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
            fontWeight: 400,
-           fontSize: {
-                      measure: 14,
-                      unit: "Pixels",
-                      css: "14px"
-                     },
-           lineHeight: {
-                          measure: 20,
-                          unit: "Pixels",
-                          css: "20px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontSize: Measures.fontSizeFontsize1,
+           lineHeight: Measures.lineHeightLineheights7,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const captionLink = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 14,
-                      unit: "Pixels",
-                      css: "14px"
-                     },
-           lineHeight: {
-                          measure: 20,
-                          unit: "Pixels",
-                          css: "20px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize1,
+           lineHeight: Measures.lineHeightLineheights7,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const metaBold = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 12,
-                      unit: "Pixels",
-                      css: "12px"
-                     },
-           lineHeight: {
-                          measure: 16,
-                          unit: "Pixels",
-                          css: "16px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize0,
+           lineHeight: Measures.lineHeightLineheights8,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const metaRegular = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
            fontWeight: 400,
-           fontSize: {
-                      measure: 12,
-                      unit: "Pixels",
-                      css: "12px"
-                     },
-           lineHeight: {
-                          measure: 16,
-                          unit: "Pixels",
-                          css: "16px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontSize: Measures.fontSizeFontsize0,
+           lineHeight: Measures.lineHeightLineheights8,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 const metaLink = {
-           fontFamily: "Boston",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 600,
-           fontSize: {
-                      measure: 12,
-                      unit: "Pixels",
-                      css: "12px"
-                     },
-           lineHeight: {
-                          measure: 16,
-                          unit: "Pixels",
-                          css: "16px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
+           fontWeight: 700,
+           fontSize: Measures.fontSizeFontsize0,
+           lineHeight: Measures.lineHeightLineheights8,
+           letterSpacing: Measures.letterSpacingLetterspacing0,
+           textIndent: Measures.dimensionParagraphindent0,
          };
 
 
