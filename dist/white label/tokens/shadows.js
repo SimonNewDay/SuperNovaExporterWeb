@@ -14,29 +14,6 @@ const sm = {
                      css: "1px"
                     },
            radius: {
-                    measure: 2,
-                    unit: "Pixels",
-                    css: "2px"
-                   },
-           spread: {
-                    measure: 0,
-                    unit: "Pixels",
-                    css: "0px"
-                   },
-           color: "rgba(74,74,74,15)",
-         };
-const sm2 = {  
-           offsetX: {
-                     measure: 0,
-                     unit: "Pixels",
-                     css: "0px"
-                    },
-           offsetY: {
-                     measure: 1,
-                     unit: "Pixels",
-                     css: "1px"
-                    },
-           radius: {
                     measure: 3,
                     unit: "Pixels",
                     css: "3px"
@@ -49,29 +26,6 @@ const sm2 = {
            color: "rgba(74,74,74,26)",
          };
 const md = {  
-           offsetX: {
-                     measure: 0,
-                     unit: "Pixels",
-                     css: "0px"
-                    },
-           offsetY: {
-                     measure: 4,
-                     unit: "Pixels",
-                     css: "4px"
-                    },
-           radius: {
-                    measure: 6,
-                    unit: "Pixels",
-                    css: "6px"
-                   },
-           spread: {
-                    measure: -2,
-                    unit: "Pixels",
-                    css: "-2px"
-                   },
-           color: "rgba(74,74,74,13)",
-         };
-const md2 = {  
            offsetX: {
                      measure: 0,
                      unit: "Pixels",
@@ -122,12 +76,8 @@ const lg = {
 export const Shadows = {
   /** Used for cards and panels. */
       sm,
-  /** Used for cards and panels. */
-      sm2,
   /** Used for navigation bars and menus. */
       md,
-  /** Used for navigation bars and menus. */
-      md2,
   /** Used for modals. */
       lg,
 }

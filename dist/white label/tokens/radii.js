@@ -1,46 +1,48 @@
 
 import { Measures } from './measures';
-const none = {
+const borderRadiusBorderradiusNone = {
            radius: {
                       measure: 0,
                       unit: "Pixels",
                       css: "0px"
                      },
          };
-const _4px = {
+const borderRadiusBorderradiusSm = {
            radius: {
                       measure: 4,
                       unit: "Pixels",
                       css: "4px"
                      },
          };
-const _8px = {
+const borderRadiusBorderradiusMd = {
            radius: {
                       measure: 8,
                       unit: "Pixels",
                       css: "8px"
                      },
          };
-const _64px = {
+const borderRadiusBorderradiusLg = {
            radius: {
                       measure: 64,
                       unit: "Pixels",
                       css: "64px"
                      },
          };
-const buttonradius = {
-           radius: {
-                      measure: 4,
-                      unit: "Pixels",
-                      css: "4px"
-                     },
-         };
+const borderRadiusButtonBorderradius = borderRadiusBorderradiusMd;
+const borderRadiusInputBorderradius = borderRadiusBorderradiusNone;
+const borderRadiusCardBorderradius = borderRadiusBorderradiusSm;
+const borderRadiusChecklistBorderradius = borderRadiusBorderradiusNone;
+const borderRadiusRadioBorderradius = borderRadiusBorderradiusLg;
 
 
 export const Raddii = {
-      none,
-      _4px,
-      _8px,
-      _64px,
-      buttonradius,
+      borderRadiusBorderradiusNone,
+      borderRadiusBorderradiusSm,
+      borderRadiusBorderradiusMd,
+      borderRadiusBorderradiusLg,
+      borderRadiusButtonBorderradius,
+      borderRadiusInputBorderradius,
+      borderRadiusCardBorderradius,
+      borderRadiusChecklistBorderradius,
+      borderRadiusRadioBorderradius,
 }

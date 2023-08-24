@@ -31,20 +31,15 @@ const globalBaseBlack = "rgba(0,0,0,255)";
  const semanticInteractivePrimaryInteractivehover = "rgba(0,24,192,255)";
  const semanticInteractiveSecondaryInteractivedefault = "rgba(0,182,240,255)";
  const semanticInteractiveSecondaryInteractivehover = "rgba(0,146,204,255)";
- const semanticButtonPrimaryButtoncontent = "rgba(255,255,255,255)";
- const semanticButtonPrimaryButtonbackgrounddefault = "rgba(0,30,240,255)";
  const semanticButtonPrimaryButtonbackgroundhover = "rgba(0,24,192,255)";
  const semanticButtonPrimaryButtonfocus = "rgba(0,182,240,255)";
- const semanticButtonSecondaryButtoncontent = "rgba(0,30,240,255)";
  const semanticButtonSecondaryButtonbackgrounddefault = "rgba(255,255,255,255)";
- const semanticButtonSecondaryButtonbackgroundhover = "rgba(227,227,227,255)";
+ const semanticButtonSecondaryButtonbackgroundhover = "rgba(0,173,231,255)";
  const semanticButtonSecondaryButtonfocus = "rgba(0,30,240,255)";
- const semanticButtonTertiaryButtoncontent = "rgba(0,30,240,255)";
- const semanticButtonTertiaryButtonbackgrounddefault = "rgba(255,255,255,0)";
+ const semanticButtonTertiaryButtonbackgrounddefault = "rgba(255,255,255,255)";
  const semanticButtonTertiaryButtonbackgroundhover = "rgba(221,225,255,255)";
  const semanticButtonTertiaryButtonfocus = "rgba(0,30,240,255)";
- const semanticButtonDisabledButtoncontent = "rgba(77,77,77,255)";
- const semanticButtonDisabledButtonbackgrounddefault = "rgba(77,77,77,255)";
+ const semanticButtonDisabledButtoncontent = "rgba(142,142,142,255)";
  const semanticAlertsSuccessprimary = "rgba(14,125,36,255)";
  const semanticAlertsSuccesssecondary = "rgba(235,251,238,255)";
  const semanticAlertsWarningprimary = "rgba(214,67,9,255)";
@@ -59,10 +54,27 @@ const globalBaseBlack = "rgba(0,0,0,255)";
  const globalThemeQuaternaryThemedefault = "rgba(232,23,138,255)";
  const semanticInteractivePrimaryInteractivefocus = "rgba(0,182,240,255)";
  const semanticInteractiveSecondaryInteractivefocus = "rgba(0,30,240,255)";
- const semanticInteractiveDisabledInteractivecontent = "rgba(77,77,77,255)";
- const semanticInteractiveDisabledInteractivebackground = "rgba(198,198,198,255)";
+ const semanticInteractiveDisabledInteractivecontent = "rgba(142,142,142,255)";
+ const semanticInteractiveDisabledInteractivebackground = "rgba(227,227,227,255)";
  const semanticButtonDisabledButtonbackground = "rgba(227,227,227,255)";
- const semanticInteractiveDisabledInteractivedefault = "rgba(77,77,77,255)";
+ const semanticButtonTertiaryButtoncontentdefault = "rgba(0,30,240,255)";
+ const semanticButtonTertiaryButtoncontenthover = "rgba(0,30,240,255)";
+ const semanticButtonSecondaryButtoncontentdefault = "rgba(0,182,240,255)";
+ const semanticButtonSecondaryButtoncontenthover = "rgba(255,255,255,255)";
+ const semanticButtonSecondaryButtonborder = "rgba(0,182,240,255)";
+ const semanticButtonPrimaryButtoncontentdefault = "rgba(255,255,255,255)";
+ const semanticButtonPrimaryButtoncontenthover = "rgba(255,255,255,255)";
+ const semanticButtonDestructiveButtoncontentdefault = "rgba(255,255,255,255)";
+ const semanticButtonDestructiveButtonbackgrounddefault = "rgba(195,4,36,255)";
+ const semanticButtonDestructiveButtonbackgroundhover = "rgba(175,4,32,255)";
+ const semanticButtonDestructiveButtonfocus = "rgba(40,50,55,255)";
+ const globalRedRedhover = "rgba(175,4,32,255)";
+ const globalOrangeOrangehover = "rgba(196,61,8,255)";
+ const globalGreenGreenhover = "rgba(12,105,30,255)";
+ const semanticButtonPrimaryButtonborder = "rgba(40,50,55,255)";
+ const semanticButtonTertiaryButtonborder = "rgba(245,245,245,255)";
+ const semanticButtonDestructiveButtonborder = "rgba(195,4,36,255)";
+ const semanticButtonPrimaryButtonbackgrounddefault = globalThemePrimaryThemedefault;
  
 export const Colors = {
             globalBaseBlack,
@@ -85,7 +97,7 @@ export const Colors = {
             semanticContentContentprimary,
     /** Use for secondary content, such as Body, Caption and Meta. */
             semanticContentContentsecondary,
-    /** Use for tertiary content, such as placeholder or legal text.  */
+    /** Use for tertiary content, such as placeholder or legal text. */
             semanticContentContenttertiary,
     /** Used to ensure contrast on darker backgrounds. */
             semanticContentContentinverse,
@@ -103,32 +115,24 @@ export const Colors = {
             semanticBorderBorderprimary,
     /** Used to ensure contrast on darker backgrounds. */
             semanticBorderBorderinverse,
-    /** Used to indicate an interactive elements’ Default state.  */
+    /** Used to indicate an interactive elements’ Default state. */
             semanticInteractivePrimaryInteractivedefault,
-    /** Used to indicate an interactive elements’ Hover or Pressed state.  */
+    /** Used to indicate an interactive elements’ Hover or Pressed state. */
             semanticInteractivePrimaryInteractivehover,
-    /** Used to indicate an interactive elements’ Default state.  */
+    /** Used to indicate an interactive elements’ Default state. */
             semanticInteractiveSecondaryInteractivedefault,
-    /** Used to indicate an interactive elements’ Hover or Pressed state.  */
+    /** Used to indicate an interactive elements’ Hover or Pressed state. */
             semanticInteractiveSecondaryInteractivehover,
-    /** Used for content within a Button such as text or iconography. */
-            semanticButtonPrimaryButtoncontent,
-    /** Used for the background colour of the Button’s Default state. */
-            semanticButtonPrimaryButtonbackgrounddefault,
     /** Used for the background colour of the Button’s Hover or Pressed state. */
             semanticButtonPrimaryButtonbackgroundhover,
     /** Used for the Button’s focus state. */
             semanticButtonPrimaryButtonfocus,
-    /** Used for content within a Button such as text or iconography. */
-            semanticButtonSecondaryButtoncontent,
     /** Used for the background colour of the Button’s Default state. */
             semanticButtonSecondaryButtonbackgrounddefault,
     /** Used for the background colour of the Button’s Hover or Pressed state. */
             semanticButtonSecondaryButtonbackgroundhover,
     /** Used for the Button’s focus state. */
             semanticButtonSecondaryButtonfocus,
-    /** Used for content within a Button such as text or iconography. */
-            semanticButtonTertiaryButtoncontent,
     /** Used for the background colour of the Button’s Default state. */
             semanticButtonTertiaryButtonbackgrounddefault,
     /** Used for the background colour of the Button’s Hover or Pressed state. */
@@ -137,8 +141,6 @@ export const Colors = {
             semanticButtonTertiaryButtonfocus,
     /** Used for content within a Disabled Button such as text or iconography. */
             semanticButtonDisabledButtoncontent,
-    /** Used for the background colour of a Disabled Button. */
-            semanticButtonDisabledButtonbackgrounddefault,
     /** Used for high-impact success messaging. Can be used for text or background. */
             semanticAlertsSuccessprimary,
     /** Used in combination with Alert Success Primary. Can only be used for backgrounds. */
@@ -166,7 +168,25 @@ export const Colors = {
     /** Used for disabled Interactive backgrounds. */
             semanticInteractiveDisabledInteractivebackground,
             semanticButtonDisabledButtonbackground,
-            semanticInteractiveDisabledInteractivedefault,
+            semanticButtonTertiaryButtoncontentdefault,
+            semanticButtonTertiaryButtoncontenthover,
+            semanticButtonSecondaryButtoncontentdefault,
+            semanticButtonSecondaryButtoncontenthover,
+            semanticButtonSecondaryButtonborder,
+            semanticButtonPrimaryButtoncontentdefault,
+            semanticButtonPrimaryButtoncontenthover,
+            semanticButtonDestructiveButtoncontentdefault,
+            semanticButtonDestructiveButtonbackgrounddefault,
+            semanticButtonDestructiveButtonbackgroundhover,
+            semanticButtonDestructiveButtonfocus,
+            globalRedRedhover,
+            globalOrangeOrangehover,
+            globalGreenGreenhover,
+            semanticButtonPrimaryButtonborder,
+            semanticButtonTertiaryButtonborder,
+            semanticButtonDestructiveButtonborder,
+    /** Used for the background colour of the Button’s Default state. */
+            semanticButtonPrimaryButtonbackgrounddefault,
  
 }
 
