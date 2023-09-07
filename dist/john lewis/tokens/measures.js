@@ -1,461 +1,495 @@
-const borderWidthBorderwidth0 = {
+const borderWidthBorderWidthBorderwidth0 = {
           measure: 0,
           unit: "Pixels",
           css: "0px"
          };
-const borderWidthBorderwidth1 = {
+const borderWidthBorderWidthBorderwidth1 = {
           measure: 1,
           unit: "Pixels",
           css: "1px"
          };
-const borderWidthBorderwidth2 = {
+const borderWidthBorderWidthBorderwidth2 = {
           measure: 2,
           unit: "Pixels",
           css: "2px"
          };
-const borderWidthBorderwidth3 = {
+const borderWidthBorderWidthBorderwidth3 = {
           measure: 3,
           unit: "Pixels",
           css: "3px"
          };
-const borderWidthBorderwidth6 = {
+const borderWidthBorderWidthBorderwidth6 = {
           measure: 6,
           unit: "Pixels",
           css: "6px"
          };
-const spacingScale4 = {
+const spacingSpacingScale4 = {
           measure: 4,
           unit: "Pixels",
           css: "4px"
          };
-const spacingScale8 = {
+const spacingSpacingScale8 = {
           measure: 8,
           unit: "Pixels",
           css: "8px"
          };
-const spacingScale12 = {
+const spacingSpacingScale12 = {
           measure: 12,
           unit: "Pixels",
           css: "12px"
          };
-const spacingScale16 = {
+const spacingSpacingScale16 = {
           measure: 16,
           unit: "Pixels",
           css: "16px"
          };
-const spacingScale24 = {
+const spacingSpacingScale24 = {
           measure: 24,
           unit: "Pixels",
           css: "24px"
          };
-const spacingScale32 = {
+const spacingSpacingScale32 = {
           measure: 32,
           unit: "Pixels",
           css: "32px"
          };
-const spacingScale48 = {
+const spacingSpacingScale48 = {
           measure: 48,
           unit: "Pixels",
           css: "48px"
          };
-const spacingScale64 = {
+const spacingSpacingScale64 = {
           measure: 64,
           unit: "Pixels",
           css: "64px"
          };
-const spacingInsetSquare44 = {
+const spacingSpacingInsetSquare44 = {
           measure: 44,
           unit: "Pixels",
           css: "44px"
          };
-const spacingInsetSquare88 = {
+const spacingSpacingInsetSquare88 = {
           measure: 88,
           unit: "Pixels",
           css: "88px"
          };
-const spacingInsetSquare1212 = {
+const spacingSpacingInsetSquare1212 = {
           measure: 1212,
           unit: "Pixels",
           css: "1212px"
          };
-const spacingInsetSquare1616 = {
+const spacingSpacingInsetSquare1616 = {
           measure: 1616,
           unit: "Pixels",
           css: "1616px"
          };
-const spacingInsetSquare2424 = {
+const spacingSpacingInsetSquare2424 = {
           measure: 2424,
           unit: "Pixels",
           css: "2424px"
          };
-const spacingInsetSquare3232 = {
+const spacingSpacingInsetSquare3232 = {
           measure: 3232,
           unit: "Pixels",
           css: "3232px"
          };
-const spacingInsetCompressed84 = {
+const spacingSpacingInsetCompressed84 = {
           measure: 48,
           unit: "Pixels",
           css: "48px"
          };
-const spacingInsetCompressed168 = {
+const spacingSpacingInsetCompressed168 = {
           measure: 816,
           unit: "Pixels",
           css: "816px"
          };
-const spacingInsetCompressed2412 = {
+const spacingSpacingInsetCompressed2412 = {
           measure: 1224,
           unit: "Pixels",
           css: "1224px"
          };
-const spacingInsetCompressed3216 = {
+const spacingSpacingInsetCompressed3216 = {
           measure: 1632,
           unit: "Pixels",
           css: "1632px"
          };
-const letterSpacingLeterspacingDefault = {
+const letterSpacingLetterSpacingLeterspacingDefault = {
           measure: 0,
           unit: "Pixels",
           css: "0px"
          };
-const letterSpacingLetterspacing0 = {
+const letterSpacingLetterSpacingLetterspacing0 = {
           measure: 0,
           unit: "Pixels",
           css: "0px"
          };
-const fontSizeFontsizesHeadingDesktopH1 = {
+const fontSizingFontSizeFontsizesHeadingDesktopH1 = {
           measure: 48,
           unit: "Pixels",
           css: "48px"
          };
-const fontSizeFontsizesHeadingDesktopH2 = {
+const fontSizingFontSizeFontsizesHeadingDesktopH2 = {
           measure: 32,
           unit: "Pixels",
           css: "32px"
          };
-const fontSizeFontsizesHeadingDesktopH3 = {
+const fontSizingFontSizeFontsizesHeadingDesktopH3 = {
           measure: 28,
           unit: "Pixels",
           css: "28px"
          };
-const fontSizeFontsizesHeadingDesktopH4 = {
+const fontSizingFontSizeFontsizesHeadingDesktopH4 = {
           measure: 24,
           unit: "Pixels",
           css: "24px"
          };
-const fontSizeFontsizesHeadingDesktopH5 = {
+const fontSizingFontSizeFontsizesHeadingDesktopH5 = {
           measure: 20,
           unit: "Pixels",
           css: "20px"
          };
-const fontSizeFontsizesHeadingMobileH1 = {
+const fontSizingFontSizeFontsizesHeadingMobileH1 = {
           measure: 32,
           unit: "Pixels",
           css: "32px"
          };
-const fontSizeFontsizesHeadingMobileH2 = {
+const fontSizingFontSizeFontsizesHeadingMobileH2 = {
           measure: 28,
           unit: "Pixels",
           css: "28px"
          };
-const fontSizeFontsizesHeadingMobileH3 = {
+const fontSizingFontSizeFontsizesHeadingMobileH3 = {
           measure: 24,
           unit: "Pixels",
           css: "24px"
          };
-const fontSizeFontsizesHeadingMobileH4 = {
+const fontSizingFontSizeFontsizesHeadingMobileH4 = {
           measure: 20,
           unit: "Pixels",
           css: "20px"
          };
-const fontSizeFontsizesHeadingMobileH5 = {
+const fontSizingFontSizeFontsizesHeadingMobileH5 = {
           measure: 18,
           unit: "Pixels",
           css: "18px"
          };
-const fontSizeFontsizesBodyBody = {
+const fontSizingFontSizeFontsizesBodyBody = {
           measure: 16,
           unit: "Pixels",
           css: "16px"
          };
-const fontSizeFontsizesBodyCaption = {
+const fontSizingFontSizeFontsizesBodyCaption = {
           measure: 14,
           unit: "Pixels",
           css: "14px"
          };
-const fontSizeFontsizesBodyMeta = {
+const fontSizingFontSizeFontsizesBodyMeta = {
           measure: 12,
           unit: "Pixels",
           css: "12px"
          };
-const fontSizeFontsize0 = {
+const fontSizingFontSizeFontsize0 = {
           measure: 12,
           unit: "Pixels",
           css: "12px"
          };
-const fontSizeFontsize1 = {
+const fontSizingFontSizeFontsize1 = {
           measure: 14,
           unit: "Pixels",
           css: "14px"
          };
-const fontSizeFontsize2 = {
+const fontSizingFontSizeFontsize2 = {
           measure: 16,
           unit: "Pixels",
           css: "16px"
          };
-const fontSizeFontsize3 = {
+const fontSizingFontSizeFontsize3 = {
           measure: 18,
           unit: "Pixels",
           css: "18px"
          };
-const fontSizeFontsize4 = {
+const fontSizingFontSizeFontsize4 = {
           measure: 20,
           unit: "Pixels",
           css: "20px"
          };
-const fontSizeFontsize5 = {
+const fontSizingFontSizeFontsize5 = {
           measure: 24,
           unit: "Pixels",
           css: "24px"
          };
-const fontSizeFontsize6 = {
+const fontSizingFontSizeFontsize6 = {
           measure: 28,
           unit: "Pixels",
           css: "28px"
          };
-const fontSizeFontsize7 = {
+const fontSizingFontSizeFontsize7 = {
           measure: 32,
           unit: "Pixels",
           css: "32px"
          };
-const fontSizeFontsize8 = {
+const fontSizingFontSizeFontsize8 = {
           measure: 48,
           unit: "Pixels",
           css: "48px"
          };
-const lineHeightLineheights0 = {
+const lineHeightLineHeightLineheights0 = {
           measure: 72,
           unit: "Pixels",
           css: "72px"
          };
-const lineHeightLineheights1 = {
+const lineHeightLineHeightLineheights1 = {
           measure: 48,
           unit: "Pixels",
           css: "48px"
          };
-const lineHeightLineheights2 = {
+const lineHeightLineHeightLineheights2 = {
           measure: 44,
           unit: "Pixels",
           css: "44px"
          };
-const lineHeightLineheights3 = {
+const lineHeightLineHeightLineheights3 = {
           measure: 36,
           unit: "Pixels",
           css: "36px"
          };
-const lineHeightLineheights4 = {
+const lineHeightLineHeightLineheights4 = {
           measure: 32,
           unit: "Pixels",
           css: "32px"
          };
-const lineHeightLineheights5 = {
+const lineHeightLineHeightLineheights5 = {
           measure: 28,
           unit: "Pixels",
           css: "28px"
          };
-const lineHeightLineheights6 = {
+const lineHeightLineHeightLineheights6 = {
           measure: 24,
           unit: "Pixels",
           css: "24px"
          };
-const lineHeightLineheights7 = {
+const lineHeightLineHeightLineheights7 = {
           measure: 20,
           unit: "Pixels",
           css: "20px"
          };
-const lineHeightLineheights8 = {
+const lineHeightLineHeightLineheights8 = {
           measure: 0,
           unit: "Pixels",
           css: "0px"
          };
-const lineHeightLineheightsHeadingDesktopH1 = {
+const lineHeightLineHeightLineheightsHeadingDesktopH1 = {
           measure: 56,
           unit: "Pixels",
           css: "56px"
          };
-const lineHeightLineheightsHeadingDesktopH2 = {
+const lineHeightLineHeightLineheightsHeadingDesktopH2 = {
           measure: 40,
           unit: "Pixels",
           css: "40px"
          };
-const lineHeightLineheightsHeadingDesktopH3 = {
+const lineHeightLineHeightLineheightsHeadingDesktopH3 = {
           measure: 36,
           unit: "Pixels",
           css: "36px"
          };
-const lineHeightLineheightsHeadingDesktopH4 = {
+const lineHeightLineHeightLineheightsHeadingDesktopH4 = {
           measure: 32,
           unit: "Pixels",
           css: "32px"
          };
-const lineHeightLineheightsHeadingDesktopH5 = {
+const lineHeightLineHeightLineheightsHeadingDesktopH5 = {
           measure: 28,
           unit: "Pixels",
           css: "28px"
          };
-const lineHeightLineheightsHeadingMobileH1 = {
+const lineHeightLineHeightLineheightsHeadingMobileH1 = {
           measure: 40,
           unit: "Pixels",
           css: "40px"
          };
-const lineHeightLineheightsHeadingMobileH2 = {
+const lineHeightLineHeightLineheightsHeadingMobileH2 = {
           measure: 36,
           unit: "Pixels",
           css: "36px"
          };
-const lineHeightLineheightsHeadingMobileH3 = {
+const lineHeightLineHeightLineheightsHeadingMobileH3 = {
           measure: 32,
           unit: "Pixels",
           css: "32px"
          };
-const lineHeightLineheightsHeadingMobileH4 = {
+const lineHeightLineHeightLineheightsHeadingMobileH4 = {
           measure: 28,
           unit: "Pixels",
           css: "28px"
          };
-const lineHeightLineheightsHeadingMobileH5 = {
+const lineHeightLineHeightLineheightsHeadingMobileH5 = {
           measure: 28,
           unit: "Pixels",
           css: "28px"
          };
-const lineHeightLineheightsBodyBody = {
+const lineHeightLineHeightLineheightsBodyBody = {
           measure: 24,
           unit: "Pixels",
           css: "24px"
          };
-const lineHeightLineheightsBodyCaption = {
+const lineHeightLineHeightLineheightsBodyCaption = {
           measure: 20,
           unit: "Pixels",
           css: "20px"
          };
-const lineHeightLineheightsBodyMeta = {
+const lineHeightLineHeightLineheightsBodyMeta = {
           measure: 16,
           unit: "Pixels",
           css: "16px"
          };
-const paragraphSpacingParagraphspacing0 = {
+const paragraphSpacingParagraphSpacingParagraphspacing0 = {
           measure: 0,
           unit: "Pixels",
           css: "0px"
          };
-const dimensionParagraphindent0 = {
+const dimensionDimensionParagraphindent0 = {
           measure: 0,
           unit: "Pixels",
           css: "0px"
          };
-const spacingLayoutVertical4 = spacingScale4;
-const spacingLayoutVertical8 = spacingScale8;
-const spacingLayoutVertical12 = spacingScale12;
-const spacingLayoutVertical16 = spacingScale16;
-const spacingLayoutVertical24 = spacingScale24;
-const spacingLayoutVertical32 = spacingScale32;
-const spacingLayoutVertical48 = spacingScale48;
-const spacingLayoutVertical64 = spacingScale64;
-const spacingLayoutHorizontal4 = spacingScale4;
-const spacingLayoutHorizontal8 = spacingScale8;
-const spacingLayoutHorizontal12 = spacingScale12;
-const spacingLayoutHorizontal16 = spacingScale16;
-const spacingLayoutHorizontal24 = spacingScale24;
-const spacingLayoutHorizontal32 = spacingScale32;
-const spacingLayoutHorizontal48 = spacingScale48;
-const spacingLayoutHorizontal64 = spacingScale64;
+const borderRadiusBorderRadiusBorderradiusNone = {
+          measure: 0,
+          unit: "Pixels",
+          css: "0px"
+         };
+const borderRadiusBorderRadiusBorderradiusSm = {
+          measure: 4,
+          unit: "Pixels",
+          css: "4px"
+         };
+const borderRadiusBorderRadiusBorderradiusMd = {
+          measure: 8,
+          unit: "Pixels",
+          css: "8px"
+         };
+const borderRadiusBorderRadiusBorderradiusLg = {
+          measure: 64,
+          unit: "Pixels",
+          css: "64px"
+         };
+const spacingSpacingLayoutVertical4 = spacingSpacingScale4;
+const spacingSpacingLayoutVertical8 = spacingSpacingScale8;
+const spacingSpacingLayoutVertical12 = spacingSpacingScale12;
+const spacingSpacingLayoutVertical16 = spacingSpacingScale16;
+const spacingSpacingLayoutVertical24 = spacingSpacingScale24;
+const spacingSpacingLayoutVertical32 = spacingSpacingScale32;
+const spacingSpacingLayoutVertical48 = spacingSpacingScale48;
+const spacingSpacingLayoutVertical64 = spacingSpacingScale64;
+const spacingSpacingLayoutHorizontal4 = spacingSpacingScale4;
+const spacingSpacingLayoutHorizontal8 = spacingSpacingScale8;
+const spacingSpacingLayoutHorizontal12 = spacingSpacingScale12;
+const spacingSpacingLayoutHorizontal16 = spacingSpacingScale16;
+const spacingSpacingLayoutHorizontal24 = spacingSpacingScale24;
+const spacingSpacingLayoutHorizontal32 = spacingSpacingScale32;
+const spacingSpacingLayoutHorizontal48 = spacingSpacingScale48;
+const spacingSpacingLayoutHorizontal64 = spacingSpacingScale64;
+const borderRadiusBorderRadiusButtonBorderradius = borderRadiusBorderRadiusBorderradiusNone;
+const borderRadiusBorderRadiusInputBorderradius = borderRadiusBorderRadiusBorderradiusNone;
+const borderRadiusBorderRadiusCardBorderradius = borderRadiusBorderRadiusBorderradiusMd;
+const borderRadiusBorderRadiusChecklistBorderradius = borderRadiusBorderRadiusBorderradiusNone;
+const borderRadiusBorderRadiusRadioBorderradius = borderRadiusBorderRadiusBorderradiusLg;
 
 export const Measures = {
-      borderWidthBorderwidth0,
-      borderWidthBorderwidth1,
-      borderWidthBorderwidth2,
-      borderWidthBorderwidth3,
-      borderWidthBorderwidth6,
-      spacingScale4,
-      spacingScale8,
-      spacingScale12,
-      spacingScale16,
-      spacingScale24,
-      spacingScale32,
-      spacingScale48,
-      spacingScale64,
-      spacingInsetSquare44,
-      spacingInsetSquare88,
-      spacingInsetSquare1212,
-      spacingInsetSquare1616,
-      spacingInsetSquare2424,
-      spacingInsetSquare3232,
-      spacingInsetCompressed84,
-      spacingInsetCompressed168,
-      spacingInsetCompressed2412,
-      spacingInsetCompressed3216,
-      letterSpacingLeterspacingDefault,
-      letterSpacingLetterspacing0,
-      fontSizeFontsizesHeadingDesktopH1,
-      fontSizeFontsizesHeadingDesktopH2,
-      fontSizeFontsizesHeadingDesktopH3,
-      fontSizeFontsizesHeadingDesktopH4,
-      fontSizeFontsizesHeadingDesktopH5,
-      fontSizeFontsizesHeadingMobileH1,
-      fontSizeFontsizesHeadingMobileH2,
-      fontSizeFontsizesHeadingMobileH3,
-      fontSizeFontsizesHeadingMobileH4,
-      fontSizeFontsizesHeadingMobileH5,
-      fontSizeFontsizesBodyBody,
-      fontSizeFontsizesBodyCaption,
-      fontSizeFontsizesBodyMeta,
-      fontSizeFontsize0,
-      fontSizeFontsize1,
-      fontSizeFontsize2,
-      fontSizeFontsize3,
-      fontSizeFontsize4,
-      fontSizeFontsize5,
-      fontSizeFontsize6,
-      fontSizeFontsize7,
-      fontSizeFontsize8,
-      lineHeightLineheights0,
-      lineHeightLineheights1,
-      lineHeightLineheights2,
-      lineHeightLineheights3,
-      lineHeightLineheights4,
-      lineHeightLineheights5,
-      lineHeightLineheights6,
-      lineHeightLineheights7,
-      lineHeightLineheights8,
-      lineHeightLineheightsHeadingDesktopH1,
-      lineHeightLineheightsHeadingDesktopH2,
-      lineHeightLineheightsHeadingDesktopH3,
-      lineHeightLineheightsHeadingDesktopH4,
-      lineHeightLineheightsHeadingDesktopH5,
-      lineHeightLineheightsHeadingMobileH1,
-      lineHeightLineheightsHeadingMobileH2,
-      lineHeightLineheightsHeadingMobileH3,
-      lineHeightLineheightsHeadingMobileH4,
-      lineHeightLineheightsHeadingMobileH5,
-      lineHeightLineheightsBodyBody,
-      lineHeightLineheightsBodyCaption,
-      lineHeightLineheightsBodyMeta,
-      paragraphSpacingParagraphspacing0,
-      dimensionParagraphindent0,
-      spacingLayoutVertical4,
-      spacingLayoutVertical8,
-      spacingLayoutVertical12,
-      spacingLayoutVertical16,
-      spacingLayoutVertical24,
-      spacingLayoutVertical32,
-      spacingLayoutVertical48,
-      spacingLayoutVertical64,
-      spacingLayoutHorizontal4,
-      spacingLayoutHorizontal8,
-      spacingLayoutHorizontal12,
-      spacingLayoutHorizontal16,
-      spacingLayoutHorizontal24,
-      spacingLayoutHorizontal32,
-      spacingLayoutHorizontal48,
-      spacingLayoutHorizontal64,
+      borderWidthBorderWidthBorderwidth0,
+      borderWidthBorderWidthBorderwidth1,
+      borderWidthBorderWidthBorderwidth2,
+      borderWidthBorderWidthBorderwidth3,
+      borderWidthBorderWidthBorderwidth6,
+      spacingSpacingScale4,
+      spacingSpacingScale8,
+      spacingSpacingScale12,
+      spacingSpacingScale16,
+      spacingSpacingScale24,
+      spacingSpacingScale32,
+      spacingSpacingScale48,
+      spacingSpacingScale64,
+      spacingSpacingInsetSquare44,
+      spacingSpacingInsetSquare88,
+      spacingSpacingInsetSquare1212,
+      spacingSpacingInsetSquare1616,
+      spacingSpacingInsetSquare2424,
+      spacingSpacingInsetSquare3232,
+      spacingSpacingInsetCompressed84,
+      spacingSpacingInsetCompressed168,
+      spacingSpacingInsetCompressed2412,
+      spacingSpacingInsetCompressed3216,
+      letterSpacingLetterSpacingLeterspacingDefault,
+      letterSpacingLetterSpacingLetterspacing0,
+      fontSizingFontSizeFontsizesHeadingDesktopH1,
+      fontSizingFontSizeFontsizesHeadingDesktopH2,
+      fontSizingFontSizeFontsizesHeadingDesktopH3,
+      fontSizingFontSizeFontsizesHeadingDesktopH4,
+      fontSizingFontSizeFontsizesHeadingDesktopH5,
+      fontSizingFontSizeFontsizesHeadingMobileH1,
+      fontSizingFontSizeFontsizesHeadingMobileH2,
+      fontSizingFontSizeFontsizesHeadingMobileH3,
+      fontSizingFontSizeFontsizesHeadingMobileH4,
+      fontSizingFontSizeFontsizesHeadingMobileH5,
+      fontSizingFontSizeFontsizesBodyBody,
+      fontSizingFontSizeFontsizesBodyCaption,
+      fontSizingFontSizeFontsizesBodyMeta,
+      fontSizingFontSizeFontsize0,
+      fontSizingFontSizeFontsize1,
+      fontSizingFontSizeFontsize2,
+      fontSizingFontSizeFontsize3,
+      fontSizingFontSizeFontsize4,
+      fontSizingFontSizeFontsize5,
+      fontSizingFontSizeFontsize6,
+      fontSizingFontSizeFontsize7,
+      fontSizingFontSizeFontsize8,
+      lineHeightLineHeightLineheights0,
+      lineHeightLineHeightLineheights1,
+      lineHeightLineHeightLineheights2,
+      lineHeightLineHeightLineheights3,
+      lineHeightLineHeightLineheights4,
+      lineHeightLineHeightLineheights5,
+      lineHeightLineHeightLineheights6,
+      lineHeightLineHeightLineheights7,
+      lineHeightLineHeightLineheights8,
+      lineHeightLineHeightLineheightsHeadingDesktopH1,
+      lineHeightLineHeightLineheightsHeadingDesktopH2,
+      lineHeightLineHeightLineheightsHeadingDesktopH3,
+      lineHeightLineHeightLineheightsHeadingDesktopH4,
+      lineHeightLineHeightLineheightsHeadingDesktopH5,
+      lineHeightLineHeightLineheightsHeadingMobileH1,
+      lineHeightLineHeightLineheightsHeadingMobileH2,
+      lineHeightLineHeightLineheightsHeadingMobileH3,
+      lineHeightLineHeightLineheightsHeadingMobileH4,
+      lineHeightLineHeightLineheightsHeadingMobileH5,
+      lineHeightLineHeightLineheightsBodyBody,
+      lineHeightLineHeightLineheightsBodyCaption,
+      lineHeightLineHeightLineheightsBodyMeta,
+      paragraphSpacingParagraphSpacingParagraphspacing0,
+      dimensionDimensionParagraphindent0,
+      borderRadiusBorderRadiusBorderradiusNone,
+      borderRadiusBorderRadiusBorderradiusSm,
+      borderRadiusBorderRadiusBorderradiusMd,
+      borderRadiusBorderRadiusBorderradiusLg,
+      spacingSpacingLayoutVertical4,
+      spacingSpacingLayoutVertical8,
+      spacingSpacingLayoutVertical12,
+      spacingSpacingLayoutVertical16,
+      spacingSpacingLayoutVertical24,
+      spacingSpacingLayoutVertical32,
+      spacingSpacingLayoutVertical48,
+      spacingSpacingLayoutVertical64,
+      spacingSpacingLayoutHorizontal4,
+      spacingSpacingLayoutHorizontal8,
+      spacingSpacingLayoutHorizontal12,
+      spacingSpacingLayoutHorizontal16,
+      spacingSpacingLayoutHorizontal24,
+      spacingSpacingLayoutHorizontal32,
+      spacingSpacingLayoutHorizontal48,
+      spacingSpacingLayoutHorizontal64,
+      borderRadiusBorderRadiusButtonBorderradius,
+      borderRadiusBorderRadiusInputBorderradius,
+      borderRadiusBorderRadiusCardBorderradius,
+      borderRadiusBorderRadiusChecklistBorderradius,
+      borderRadiusBorderRadiusRadioBorderradius,
 }
