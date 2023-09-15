@@ -353,22 +353,22 @@ const dimensionDimensionParagraphindent0 = {
           unit: "Pixels",
           css: "0px"
          };
-const borderRadiusBorderRadiusBorderradiusNone = {
+const borderRadiusBorderRadiusBorderradius0 = {
           measure: 0,
           unit: "Pixels",
           css: "0px"
          };
-const borderRadiusBorderRadiusBorderradiusSm = {
+const borderRadiusBorderRadiusBorderradius4 = {
           measure: 4,
           unit: "Pixels",
           css: "4px"
          };
-const borderRadiusBorderRadiusBorderradiusMd = {
+const borderRadiusBorderRadiusBorderradius8 = {
           measure: 8,
           unit: "Pixels",
           css: "8px"
          };
-const borderRadiusBorderRadiusBorderradiusLg = {
+const borderRadiusBorderRadiusBorderradius64 = {
           measure: 64,
           unit: "Pixels",
           css: "64px"
@@ -389,11 +389,11 @@ const spacingSpacingLayoutHorizontal24 = spacingSpacingScale24;
 const spacingSpacingLayoutHorizontal32 = spacingSpacingScale32;
 const spacingSpacingLayoutHorizontal48 = spacingSpacingScale48;
 const spacingSpacingLayoutHorizontal64 = spacingSpacingScale64;
-const borderRadiusBorderRadiusButtonBorderradius = borderRadiusBorderRadiusBorderradiusNone;
-const borderRadiusBorderRadiusInputBorderradius = borderRadiusBorderRadiusBorderradiusNone;
-const borderRadiusBorderRadiusCardBorderradius = borderRadiusBorderRadiusBorderradiusMd;
-const borderRadiusBorderRadiusChecklistBorderradius = borderRadiusBorderRadiusBorderradiusNone;
-const borderRadiusBorderRadiusRadioBorderradius = borderRadiusBorderRadiusBorderradiusLg;
+const borderRadiusBorderRadiusButtonBorderradius = borderRadiusBorderRadiusBorderradius0;
+const borderRadiusBorderRadiusInputBorderradius = borderRadiusBorderRadiusBorderradius0;
+const borderRadiusBorderRadiusCardBorderradius = borderRadiusBorderRadiusBorderradius8;
+const borderRadiusBorderRadiusChecklistBorderradius = borderRadiusBorderRadiusBorderradius0;
+const borderRadiusBorderRadiusRadioBorderradius = borderRadiusBorderRadiusBorderradius64;
 
 export const Measures = {
       borderWidthBorderWidthBorderwidth0,
@@ -467,10 +467,10 @@ export const Measures = {
       lineHeightLineHeightLineheightsBodyMeta,
       paragraphSpacingParagraphSpacingParagraphspacing0,
       dimensionDimensionParagraphindent0,
-      borderRadiusBorderRadiusBorderradiusNone,
-      borderRadiusBorderRadiusBorderradiusSm,
-      borderRadiusBorderRadiusBorderradiusMd,
-      borderRadiusBorderRadiusBorderradiusLg,
+      borderRadiusBorderRadiusBorderradius0,
+      borderRadiusBorderRadiusBorderradius4,
+      borderRadiusBorderRadiusBorderradius8,
+      borderRadiusBorderRadiusBorderradius64,
       spacingSpacingLayoutVertical4,
       spacingSpacingLayoutVertical8,
       spacingSpacingLayoutVertical12,
